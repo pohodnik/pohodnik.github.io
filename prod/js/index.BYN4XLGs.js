@@ -1,0 +1,2 @@
+import{j as e,i as o}from"./main.BN6Mh_In.js";import{a as c}from"./dates.BKFG4wc8.js";const n="src-apps-Hiking-one-components-DayInfoWidget-_style-module_scheduleDay--rfTg6B",l={scheduleDay:n},i=({date:s,className:a,...t})=>e.jsxs("span",{className:o("text-muted",l.scheduleDay,a),...t,children:[s.toLocaleDateString(),e.jsx("hr",{className:"m-0"}),c[s.getDay()]]});export{i as D};
+//# sourceMappingURL=index.BYN4XLGs.js.map

@@ -1,2 +1,0 @@
-System.register(["./main-legacy.b1ImkUAt.js"],function(t,e){"use strict";var r;return{setters:[t=>{r=t.u}],execute:function(){t("g",(t,e=2,n=!1)=>r(e,n?{tent:["Палатку","Палатки","Палаток"],watercraft:["Плавсредство","Плавсредства","Плавсредств"]}[t]:{tent:["Палатка","Палатки","Палаток"],watercraft:["Плавсредство","Плавсредства","Плавсредств"]}[t]))}}});
-//# sourceMappingURL=jointlyEquipment.helper-legacy.kD7HhVSE.js.map

@@ -1,0 +1,2 @@
+System.register(["./main-legacy.Bj_rCq7w.js"],function(e,l){"use strict";var n,t,a;return{setters:[e=>{n=e.j,t=e.d,a=e.I}],execute:function(){e("P",function({allowEmpty:e=!1,onChange:o,value:s,options:r,...u}){return n.jsxs(t,{type:a.select,onChange:n=>n===l&&e?o?.(null):o?.(n),value:s,...u,children:[e&&n.jsx("option",{value:l,children:` - ${u.placeholder} - `},l),r?.map(e=>n.jsx("option",{value:e.value??e.label,children:e.label},e.label))]})});const l=""}}});
+//# sourceMappingURL=index-legacy.dDGX7kO9.js.map

@@ -1,0 +1,2 @@
+import{g as n}from"./main.BN6Mh_In.js";import{H as i}from"./hiking.rules.B8E_9YX_.js";const e=async t=>t.boss?i.Boss:t.full?i.Full:t.all?i.All:t.routes?i.Routes:t.kitchen?i.Kitchen:t.health?i.Health:t.media?i.Media:t.time?i.Time:t.equip?i.Equip:t.money?i.Money:t.info?i.Info:t.workouts?i.Workouts:t.member?i.Member:i.Readonly,u=async t=>{const r=await n("/ajax/hiking/rules.php",{id_hiking:t});return e(r)};export{u as g};
+//# sourceMappingURL=hikingRules.service.fJM0bQiS.js.map

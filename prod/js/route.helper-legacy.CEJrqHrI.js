@@ -1,2 +1,0 @@
-System.register(["./routes.service-legacy.DS2qJIcS.js","./obstacles.resource-legacy.D1RLxf3Y.js"],function(e,t){"use strict";var s,c;return{setters:[e=>{s=e.R},e=>{c=e.o}],execute:function(){e("g",e=>e.filter(e=>e.type===s.Point&&e.is_in_distance).map(e=>e.obstacle?`${e.obstacle.name} (${c[e.obstacle.category]}, ${e.obstacle.altitude})`:e.name))}}});
-//# sourceMappingURL=route.helper-legacy.CEJrqHrI.js.map
