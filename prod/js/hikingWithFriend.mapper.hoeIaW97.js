@@ -1,0 +1,2 @@
+const n=i=>({id:+i.id,name:i.name,description:i.desc,ava:i.ava,start:new Date(+i.start*1e3),finish:new Date(+i.finish*1e3),type:{id:+i.type,name:i.type},id_route:+i.id_route,distance:+i.distance}),e=i=>({id:+i.id,position:{id:+i.id_position,name:i.position_name,description:i.positions_description},hiking:{id:+i.id_hiking,name:i.hiking_name,start:new Date(i.hiking_start),finish:new Date(i.hiking_finish),ava:i.hiking_ava},comment:i.comment,date:new Date(i.response_approve_date)});export{e as a,n as m};
+//# sourceMappingURL=hikingWithFriend.mapper.hoeIaW97.js.map

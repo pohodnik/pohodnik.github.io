@@ -1,0 +1,2 @@
+System.register(["./main-legacy.DN6oUVQK.js","./hiking.rules-legacy.CH4yRAB1.js"],function(e,i){"use strict";var s,t;return{setters:[e=>{s=e.g},e=>{t=e.H}],execute:function(){e("g",async e=>(async e=>e.boss?t.Boss:e.full?t.Full:e.all?t.All:e.routes?t.Routes:e.kitchen?t.Kitchen:e.health?t.Health:e.media?t.Media:e.time?t.Time:e.equip?t.Equip:e.money?t.Money:e.info?t.Info:e.workouts?t.Workouts:e.member?t.Member:t.Readonly)(await s("/ajax/hiking/rules.php",{id_hiking:e})))}}});
+//# sourceMappingURL=hikingRules.service-legacy.Qwmq-NF3.js.map

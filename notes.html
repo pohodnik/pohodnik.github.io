@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Заметки</title>
+  <style>
+    :root {
+      font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      font-weight: 400;
+
+      color-scheme: light dark;
+      color: rgba(255, 255, 255, 0.87);
+      background-color: #242424;
+
+      font-synthesis: none;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    a {
+      font-weight: 500;
+      color: #646cff;
+      text-decoration: inherit;
+    }
+
+    a:hover {
+      color: #535bf2;
+    }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+  <fieldset>
+    <legend>Состояние</legend>
+     Ожидают отправки: <strong id="waitCount">0</strong>
+    <button id="upload">Выгрузить на сервер</button>
+    <div id="preview"></div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Добавление</legend>
+
+      <textarea
+        required
+        style="display: block; width: 100%; margin: 12px 0;"
+        rows="3"
+        placeholder="Заметка"
+        id="comment"
+        autofocus
+      ></textarea>
+      <footer style="display: flex; justify-content: space-between;">
+        <button type="button" id="geo">Прикрепить координаты</button>
+        <button id="saveNote">Сохранить заметку</button>
+      </footer>
+
+  </fieldset>
+
+<script>
+  const geo = document.getElementById('geo');
+  const params=new URLSearchParams(window.location.search);
+
+  const id_hiking = params.get('id_hiking');
+  if (!id_hiking) { return alert(`Need ?id_hiking=1111 in url ${id_hiking}`);  }
+
+  const key=`notes_for_${id_hiking}`;
+  const archive_key=`notes_for_${id_hiking}`;
+
+  const uploadButton = document.getElementById("upload")
+
+
+waitCount.onclick = () => {
+  const current = JSON.parse(localStorage.getItem(key) ?? '[]');
+  if (document.getElementById('preview').innerHTML.length) {
+    document.getElementById('preview').innerHTML = "";
+  } else {
+    document.getElementById('preview').innerHTML = current.map(({coordinates, comment, created}) => {
+      return `<li>
+      ${created}
+      <br>
+      <pre>${comment}</pre>
+      ${coordinates}
+        </li>`
+    }).join('\n')
+  }
+
+}
+
+function updateState (){
+  const current = JSON.parse(localStorage.getItem(key) ?? '[]');
+  document.getElementById("waitCount").textContent = current.length;
+  uploadButton.disabled = current.length === 0;
+
+}
+
+uploadButton.onclick = async () => {
+  uploadButton.disabled = true;
+  uploadButton.textContent='Выгрузка...'
+  const res = await fetch(`/ajax/hiking/notes/upload.php?id_hiking=${id_hiking}`,
+  {method: 'post', body: localStorage.getItem(key) })
+  if (!res.ok) {
+    alert(`Ошибка: ${res.status} ${res.statusText}`)
+  } else {
+
+    localStorage.setItem(key, '[]');
+    alert(`Все Заметки успешно выгружены на сервер!`)
+  }
+  updateState();
+  uploadButton.textContent ='Выгрузить на сервер'
+  uploadButton.disabled = false;
+}
+
+
+  const saveNoteButton = document.getElementById('saveNote');
+  saveNoteButton.onclick = (e) => {
+    const commentEl = document.getElementById('comment');
+    const comment = commentEl.value.trim();
+    if (!comment.length) {
+      commentEl.focus();
+      return;
+    }
+
+    const current = JSON.parse(localStorage.getItem(key) ?? '[]');
+    current.push({
+      coordinates: geo.textContent ===  'Прикрепить координаты' ? '' : geo.textContent,
+      comment,
+      created: new Date().toISOString()
+    });
+    localStorage.setItem(key, JSON.stringify(current));
+    commentEl.value = "";
+    commentEl.focus();
+    geo.textContent =  'Прикрепить координаты'
+    updateState();
+  }
+
+  updateState();
+
+  geo.onclick = () => {
+    const options = {
+      enableHighAccuracy: true,
+      timeout: 5000,
+      maximumAge: 0,
+    };
+
+    function success(pos) {
+      const crd = pos.coords;
+
+
+      geo.textContent = [crd.latitude.toFixed(6), crd.longitude.toFixed(6)].join(',')
+
+      console.log("Your current position is:");
+      console.log(`Latitude : ${crd.latitude}`);
+      console.log(`Longitude: ${crd.longitude.toFixed(6)}`);
+      console.log(`More or less ${crd.accuracy} meters.`);
+    }
+
+    function error(err) {
+      alert(`ERROR(${err.code}): ${err.message}`);
+    }
+
+    navigator.geolocation.getCurrentPosition(success, error, options);
+
+  }
+
+</script>
+
+</body>
+</html>

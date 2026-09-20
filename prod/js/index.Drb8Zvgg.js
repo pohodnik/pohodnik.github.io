@@ -1,0 +1,2 @@
+import{j as t,i as o}from"./main.pG_RNuaH.js";const n="src-components-A4Page-_styles-module_a4page--a-MADm",p="src-components-A4Page-_styles-module_subpage--yWEpXK",c={a4page:n,subpage:p},m=({children:s,className:e,...a})=>t.jsx("section",{...a,className:o(e,c.a4page),children:s}),r=({children:s,className:e,...a})=>t.jsx("section",{...a,className:o(e,c.subpage),children:s});export{m as A,r as a};
+//# sourceMappingURL=index.Drb8Zvgg.js.map
