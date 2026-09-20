@@ -1,2 +1,0 @@
-import{j as c,d,I as j}from"./main.pG_RNuaH.js";const s="";function b({allowEmpty:u=!1,onChange:e,value:a,options:r,...t}){return c.jsxs(d,{type:j.select,onChange:l=>l===s&&u?e==null?void 0:e(null):e==null?void 0:e(l),value:a,...t,children:[u&&c.jsx("option",{value:s,children:" - ".concat(t.placeholder," - ")},s),r==null?void 0:r.map(l=>{var x;return c.jsx("option",{value:(x=l.value)!=null?x:l.label,children:l.label},l.label)})]})}export{b as P};
-//# sourceMappingURL=index.CG1oXIww.js.map

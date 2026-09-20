@@ -1,2 +1,0 @@
-import{j as a,d as s,aX as r}from"./main.pG_RNuaH.js";import{s as p}from"./hikerSelectHelper.B5zKS0u7.js";const c=({id_hiking:t,value:e,onChange:o,...n})=>a.jsx(s,{...n,value:e?[e.name,e.surname].join(" "):"",readOnly:n.readOnly||!!e,style:{backgroundImage:'url("'.concat(e?e.photo[50]||r:r,'")'),backgroundSize:"36px",paddingLeft:"46px",backgroundRepeat:"no-repeat",...n.style||{}},onClick:()=>p(t,{withMe:!0}).then(o)});export{c as H};
-//# sourceMappingURL=index.BnUC5qOz.js.map

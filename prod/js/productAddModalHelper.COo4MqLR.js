@@ -1,2 +1,0 @@
-import{J as a,j as d}from"./main.pG_RNuaH.js";import{P as t}from"./index.j6NY-3vO.js";const m=(o="Добавление продукта")=>new Promise((s,e)=>{a({onClose:e,title:o,children:n=>d.jsx(t,{onSave:r=>{s(r),n()}})})}),u=(o,s="Редактирование продукта")=>new Promise((e,n)=>{a({onClose:n,title:s,size:"sm",children:r=>d.jsx(t,{data:o,onSave:c=>{e(c),r()}})})});export{m as a,u as e};
-//# sourceMappingURL=productAddModalHelper.COo4MqLR.js.map

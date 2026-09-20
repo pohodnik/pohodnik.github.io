@@ -1,2 +1,0 @@
-import{j as s,i as o}from"./main.pG_RNuaH.js";const n="src-apps-Hiking-equip-HikingEquip-components-EquipOptionsWidget-_style-module_eow--YLg20m",c={eow:n},r=({weight:e,value:i,className:t})=>s.jsxs("div",{className:o("text-end me-2",t,c.eow),children:[s.jsxs("div",{className:"border-bottom text-nowrap",children:[s.jsx("b",{children:e})," кг"]}),s.jsxs("div",{className:"text-nowrap",children:[s.jsx("b",{children:i})," л "]})]});export{r as E};
-//# sourceMappingURL=index.DaD7pnWf.js.map
