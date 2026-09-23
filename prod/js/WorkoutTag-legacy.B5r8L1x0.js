@@ -1,0 +1,2 @@
+System.register(["./main-legacy.BL2sWE-7.js","./X-legacy.BL8PibkV.js"],function(e,s){"use strict";var n,t,l;return{setters:[e=>{n=e.j,t=e.i},e=>{l=e.S}],execute:function(){e("W",({tag:e,onDelete:s,...i})=>n.jsxs("small",{className:t("p-1 me-1 d-inline-flex align-items-center",i.className),style:{background:`#${e.color}`,lineHeight:1,borderRadius:4,fontSize:8,...i.style??{}},...i,children:[e.name,s&&n.jsx("button",{className:"p-0 border-0 ms-1 rounded-circle",onClick:s,children:n.jsx(l,{})})]}))}}});
+//# sourceMappingURL=WorkoutTag-legacy.B5r8L1x0.js.map

@@ -1,0 +1,2 @@
+import{j as r,i as a}from"./main.DV1SrIpM.js";const x=({value:s,children:e,striped:o=!1,animated:i=!1,className:l,containerClassName:p,...t})=>r.jsx("div",{className:a("progress",p),...t,children:r.jsx("div",{className:a("progress-bar",{"progress-bar-striped":o,"progress-bar-animated":i},l),role:"progressbar",style:{width:"".concat(s,"%")},"aria-valuenow":s,"aria-valuemin":0,"aria-valuemax":100,children:e})});export{x as P};
+//# sourceMappingURL=index.wm7qlIb5.js.map

@@ -1,2 +1,0 @@
-System.register(["./main-legacy.Bj_rCq7w.js","./hikerSelectHelper-legacy.DD41lzlK.js"],function(e,n){"use strict";var a,t,r,i;return{setters:[e=>{a=e.j,t=e.d,r=e.aZ},e=>{i=e.s}],execute:function(){e("H",({id_hiking:e,value:n,onChange:s,...l})=>a.jsx(t,{...l,value:n?[n.name,n.surname].join(" "):"",readOnly:l.readOnly||!!n,style:{backgroundImage:`url("${n&&n.photo[50]||r}")`,backgroundSize:"36px",paddingLeft:"46px",backgroundRepeat:"no-repeat",...l.style||{}},onClick:()=>i(e,{withMe:!0}).then(s)}))}}});
-//# sourceMappingURL=index-legacy.LprFkl4h.js.map
