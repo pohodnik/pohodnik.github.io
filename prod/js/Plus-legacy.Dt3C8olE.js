@@ -1,2 +1,0 @@
-System.register(["./main-legacy.BL2sWE-7.js","./vendor-legacy.BZeg47Wb.js"],function(e,t){"use strict";var r,n;return{setters:[e=>{r=e._},e=>{n=e.b}],execute:function(){e("S",e=>n.createElement("svg",r({xmlns:"http://www.w3.org/2000/svg",width:"1em",height:"1em",fill:"none",viewBox:"0 0 16 16"},e),n.createElement("path",{fill:e.color||"currentColor",d:"M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4Z"})))}}});
-//# sourceMappingURL=Plus-legacy.Dt3C8olE.js.map

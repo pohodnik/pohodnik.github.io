@@ -1,2 +1,0 @@
-System.register(["./main-legacy.BL2sWE-7.js"],function(e,a){"use strict";var r,s;return{setters:[e=>{r=e.j,s=e.i}],execute:function(){e("P",({value:e,children:a,striped:i=!1,animated:t=!1,className:n,containerClassName:l,...c})=>r.jsx("div",{className:s("progress",l),...c,children:r.jsx("div",{className:s("progress-bar",{"progress-bar-striped":i,"progress-bar-animated":t},n),role:"progressbar",style:{width:`${e}%`},"aria-valuenow":e,"aria-valuemin":0,"aria-valuemax":100,children:a})}))}}});
-//# sourceMappingURL=index-legacy.D_I__SI6.js.map

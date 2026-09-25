@@ -1,2 +1,0 @@
-System.register([],function(s,e){"use strict";return{execute:function(){s("m",s=>({id:+s.id,phone:s.phone,is_send_sms:1===+s.is_send_sms,is_contact:1===+s.is_contact,sms_api_key:s.sms_api_key})),s("b",s=>({id:s.id.toString(),phone:s.phone,is_send_sms:s.is_send_sms?"1":"0",is_contact:s.is_contact?"1":"0",sms_api_key:s.sms_api_key})),s("a",s=>({id:+s.id,name:s.name,surname:s.surname,photo:s.photo_50}))}}});
-//# sourceMappingURL=user.mappers-legacy.BN98Gawh.js.map

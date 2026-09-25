@@ -1,2 +1,0 @@
-System.register(["./main-legacy.BL2sWE-7.js","./vendor-legacy.BZeg47Wb.js"],function(e,n){"use strict";var r,t;return{setters:[e=>{r=e.j},e=>{t=e.L}],execute:function(){e("P",({children:e,href:n="#",onClick:c,...i})=>{const s=e=>{"#"===n&&e.preventDefault(),c&&c(e)};return r.jsx(r.Fragment,{children:"#"===n||0===n.indexOf("http")?r.jsx("a",{onClick:s,href:n,...i,children:e}):r.jsx(t,{to:n,onClick:s,...i,children:e})})})}}});
-//# sourceMappingURL=index-legacy.Bp_x3ggW.js.map

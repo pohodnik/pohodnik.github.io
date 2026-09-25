@@ -1,0 +1,2 @@
+const n=s=>({id:+s.id,phone:s.phone,is_send_sms:+s.is_send_sms==1,is_contact:+s.is_contact==1,sms_api_key:s.sms_api_key}),o=s=>({id:s.id.toString(),phone:s.phone,is_send_sms:s.is_send_sms?"1":"0",is_contact:s.is_contact?"1":"0",sms_api_key:s.sms_api_key}),e=s=>({id:+s.id,name:s.name,surname:s.surname,photo:s.photo_50});export{n as a,o as b,e as m};
+//# sourceMappingURL=user.mappers.bX1m-DsZ.js.map

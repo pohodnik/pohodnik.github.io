@@ -1,0 +1,2 @@
+System.register(["./main-legacy.C72FrHGU.js","./vendor-legacy.CT4KmQdP.js"],function(e,t){"use strict";var l,n;return{setters:[e=>{l=e._},e=>{n=e.b}],execute:function(){e("S",e=>n.createElement("svg",l({xmlns:"http://www.w3.org/2000/svg",width:"1em",height:"1em",fill:"none",viewBox:"0 0 16 16"},e),n.createElement("path",{fill:e.color||"currentColor",fillRule:"evenodd",d:"M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708Z",clipRule:"evenodd"})))}}});
+//# sourceMappingURL=ChevronDown-legacy.DYLVzQxm.js.map
