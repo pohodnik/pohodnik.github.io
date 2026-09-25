@@ -1,0 +1,2 @@
+import{j as t,o as y}from"./main.BR5aZZ74.js";const l="src-ui-components-Empty-_style-module_empty--WZSKGQ",n={empty:l},c=({children:p,icon:s,height:o=120,image:e=null,...m})=>t.jsxs("div",{className:n.empty,style:{...m.style||{},minHeight:"".concat(o,"px")},...m,children:[e&&t.jsx("img",{src:e,alt:"Empty"}),s&&t.jsx(y,{icon:s,width:86}),p||"Пусто..."]});export{c as E};
+//# sourceMappingURL=index.B42vxDmN.js.map

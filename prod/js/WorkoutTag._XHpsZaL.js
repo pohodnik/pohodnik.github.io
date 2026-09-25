@@ -1,0 +1,2 @@
+import{j as e,z as a}from"./main.BR5aZZ74.js";import{S as i}from"./X.B630aV-M.js";const m=({tag:r,onDelete:o,...s})=>{var l;return e.jsxs("small",{className:a("p-1 me-1 d-inline-flex align-items-center",s.className),style:{background:"#".concat(r.color),lineHeight:1,borderRadius:4,fontSize:8,...(l=s.style)!=null?l:{}},...s,children:[r.name,o&&e.jsx("button",{className:"p-0 border-0 ms-1 rounded-circle",onClick:o,children:e.jsx(i,{})})]})};export{m as W};
+//# sourceMappingURL=WorkoutTag._XHpsZaL.js.map

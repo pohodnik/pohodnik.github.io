@@ -1,0 +1,2 @@
+System.register(["./main-legacy.tuTHMaLe.js","./vendor-legacy.CT4KmQdP.js"],function(e,n){"use strict";var r,t;return{setters:[e=>{r=e.j},e=>{t=e.L}],execute:function(){e("P",({children:e,href:n="#",onClick:c,...i})=>{const s=e=>{"#"===n&&e.preventDefault(),c&&c(e)};return r.jsx(r.Fragment,{children:"#"===n||0===n.indexOf("http")?r.jsx("a",{onClick:s,href:n,...i,children:e}):r.jsx(t,{to:n,onClick:s,...i,children:e})})})}}});
+//# sourceMappingURL=index-legacy.C7uWQ86I.js.map
