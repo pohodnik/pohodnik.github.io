@@ -1,0 +1,2 @@
+System.register(["./leaflet-src-legacy.sQvCvs6P.js"],function(t,r){"use strict";var e;return{setters:[t=>{e=t.l}],execute:function(){t("w",function(t){e.Control.Watermark=e.Control.extend({onAdd(){const t=e.DomUtil.create("img");return t.src=r,t.style.width="90px",t}}),e.control.watermark=t=>new e.Control.Watermark(t),e.control.watermark({position:"bottomleft"}).addTo(t)});const r=t("l","/prod/img/logo_2.Dh0cZcaD.png")}}});
+//# sourceMappingURL=addToMap.helper-legacy.CK8ZT7v9.js.map
