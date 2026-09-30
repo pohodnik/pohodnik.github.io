@@ -1,0 +1,2 @@
+import{s as a,j as d}from"./main.s9hs4Ub8.js";import{P as t}from"./index.B_nPAudk.js";const m=(o="Добавление продукта")=>new Promise((s,e)=>{a({onClose:e,title:o,children:n=>d.jsx(t,{onSave:r=>{s(r),n()}})})}),u=(o,s="Редактирование продукта")=>new Promise((e,n)=>{a({onClose:n,title:s,size:"sm",children:r=>d.jsx(t,{data:o,onSave:c=>{e(c),r()}})})});export{m as a,u as e};
+//# sourceMappingURL=productAddModalHelper.b04judqF.js.map
