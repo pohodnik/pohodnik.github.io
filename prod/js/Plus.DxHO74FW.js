@@ -1,2 +1,0 @@
-import{_ as o}from"./main.CqBWl3EB.js";import{b as t}from"./vendor.bj53SCx6.js";const l=e=>t.createElement("svg",o({xmlns:"http://www.w3.org/2000/svg",width:"1em",height:"1em",fill:"none",viewBox:"0 0 16 16"},e),t.createElement("path",{fill:e.color||"currentColor",d:"M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4Z"}));export{l as S};
-//# sourceMappingURL=Plus.DxHO74FW.js.map
