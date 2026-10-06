@@ -1,2 +1,0 @@
-System.register(["./main-legacy.DO6SA8x9.js"],function(t,e){"use strict";var r;return{setters:[t=>{r=t.l}],execute:function(){t("g",(t,e=2,n=!1)=>r(e,n?{tent:["Палатку","Палатки","Палаток"],watercraft:["Плавсредство","Плавсредства","Плавсредств"]}[t]:{tent:["Палатка","Палатки","Палаток"],watercraft:["Плавсредство","Плавсредства","Плавсредств"]}[t]))}}});
-//# sourceMappingURL=jointlyEquipment.helper-legacy.DTGaPipd.js.map
