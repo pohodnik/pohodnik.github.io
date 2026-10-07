@@ -1,2 +1,0 @@
-System.register(["./main-legacy.BiKcjNcn.js","./index-legacy.BI4X8npI.js","./vendor-legacy.DpFfJGzm.js"],function(e,t){"use strict";var r,n,c;return{setters:[e=>{r=e.j,n=e.q},e=>{c=e.P},null],execute:function(){e("H",({photo:e,toolbar:t})=>r.jsx(c,{img:e.url_preview,subtitle:e.date.toLocaleString(),footer:t,onClick:()=>n({canClose:!0,children:r.jsx("img",{src:e.url})}),children:e.comment}))}}});
-//# sourceMappingURL=HikingObstaclePhotoItem-legacy.BLuzC9Vc.js.map

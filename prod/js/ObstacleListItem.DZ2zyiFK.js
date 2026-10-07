@@ -1,0 +1,2 @@
+import{j as t,X as s}from"./main.BYKACNUK.js";import{O as m}from"./ObstacleCategoryBadge.R2dnS8KE.js";import{O as r}from"./ObstacleIcon.CtjV8GHh.js";const o=({obstacle:e})=>t.jsxs("div",{className:"d-flex align-items-center",children:[t.jsx(r,{type:e.type}),"  ",t.jsx("strong",{children:e.name})," ",t.jsx(m,{category:e.category})," ",s(e.altitude),e.comment.length>0&&t.jsx("em",{className:"d-block text-muted",children:t.jsx("small",{children:e.comment})})]});export{o as O};
+//# sourceMappingURL=ObstacleListItem.DZ2zyiFK.js.map
