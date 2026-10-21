@@ -1,2 +1,0 @@
-System.register([],function(t,n){"use strict";return{execute:function(){function n([t,n],[a,e]){const h=t*Math.PI/180,s=a*Math.PI/180,M=(a-t)*Math.PI/180,r=(e-n)*Math.PI/180,c=Math.sin(M/2)*Math.sin(M/2)+Math.cos(h)*Math.cos(s)*Math.sin(r/2)*Math.sin(r/2);return 2*Math.atan2(Math.sqrt(c),Math.sqrt(1-c))*6371e3}t({a:function(t){return t.reduce((t,a,e,h)=>0===e?t:t+n(h[e-1],a),0)},g:n})}}});
-//# sourceMappingURL=gpsHelper-legacy.C-TUm3AL.js.map
