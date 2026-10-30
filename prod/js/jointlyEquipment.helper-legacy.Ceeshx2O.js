@@ -1,0 +1,2 @@
+System.register(["./main-legacy.gzp5H5Nn.js"],function(t,e){"use strict";var r;return{setters:[t=>{r=t.l}],execute:function(){t("g",(t,e=2,n=!1)=>r(e,n?{tent:["Палатку","Палатки","Палаток"],watercraft:["Плавсредство","Плавсредства","Плавсредств"]}[t]:{tent:["Палатка","Палатки","Палаток"],watercraft:["Плавсредство","Плавсредства","Плавсредств"]}[t]))}}});
+//# sourceMappingURL=jointlyEquipment.helper-legacy.Ceeshx2O.js.map
