@@ -1,2 +1,0 @@
-System.register(["./main-legacy.gzp5H5Nn.js"],function(e,a){"use strict";var r,s;return{setters:[e=>{r=e.j,s=e.z}],execute:function(){e("P",({value:e,children:a,striped:i=!1,animated:t=!1,className:n,containerClassName:l,...c})=>r.jsx("div",{className:s("progress",l),...c,children:r.jsx("div",{className:s("progress-bar",{"progress-bar-striped":i,"progress-bar-animated":t},n),role:"progressbar",style:{width:`${e}%`},"aria-valuenow":e,"aria-valuemin":0,"aria-valuemax":100,children:a})}))}}});
-//# sourceMappingURL=index-legacy.DKh-3LbI.js.map
