@@ -1,0 +1,2 @@
+System.register(["./main-legacy.D210_Bua.js","./vendor-legacy.DpFfJGzm.js"],function(t,e){"use strict";var s,a,r,n;return{setters:[t=>{s=t.j,a=t.a0,r=t.L},t=>{n=t.R}],execute:function(){t("P",({src:t,alt:e,iconName:c,...i})=>{const[o,u]=n.useState(!t);return o?c?s.jsx(a,{name:c,style:{width:"auto",height:"auto",fill:"#adadad"},...i}):s.jsx("img",{src:r,alt:e,...i}):s.jsx("img",{src:t,alt:e,onError:()=>{u(!0)},...i})})}}});
+//# sourceMappingURL=index-legacy.CfTPWrqR.js.map

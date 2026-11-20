@@ -1,0 +1,2 @@
+import{j as r,l as t}from"./main.CdORPWk_.js";import{P as l}from"./index.C4W4CzJi.js";import"./vendor.bj53SCx6.js";const o=({photo:e,toolbar:s})=>r.jsx(l,{img:e.url_preview,subtitle:e.date.toLocaleString(),footer:s,onClick:()=>t({canClose:!0,children:r.jsx("img",{src:e.url})}),children:r.jsx("small",{children:r.jsx("small",{className:"text-muted",children:e.comment})})});export{o as H};
+//# sourceMappingURL=HikingObstaclePhotoItem.Cr25aSkL.js.map

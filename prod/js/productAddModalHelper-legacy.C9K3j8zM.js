@@ -1,0 +1,2 @@
+System.register(["./main-legacy.D210_Bua.js","./index-legacy.53NJ4CcP.js"],function(e,s){"use strict";var n,t,i;return{setters:[e=>{n=e.l,t=e.j},e=>{i=e.P}],execute:function(){e("a",(e="Добавление продукта")=>new Promise((s,r)=>{n({onClose:r,title:e,children:e=>t.jsx(i,{onSave:n=>{s(n),e()}})})})),e("e",(e,s="Редактирование продукта")=>new Promise((r,o)=>{n({onClose:o,title:s,size:"sm",children:s=>t.jsx(i,{data:e,onSave:e=>{r(e),s()}})})}))}}});
+//# sourceMappingURL=productAddModalHelper-legacy.C9K3j8zM.js.map

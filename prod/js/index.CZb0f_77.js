@@ -1,0 +1,2 @@
+import{j as t,i as l}from"./main.CdORPWk_.js";const o="src-ui-components-Empty-_style-module_empty--WZSKGQ",n={empty:o},r=({children:p,icon:s,height:y=120,image:e=null,...m})=>t.jsxs("div",{className:n.empty,style:{...m.style||{},minHeight:"".concat(y,"px")},...m,children:[e&&t.jsx("img",{src:e,alt:"Empty"}),s&&t.jsx(l,{icon:s,width:86}),p||"Пусто..."]});export{r as E};
+//# sourceMappingURL=index.CZb0f_77.js.map

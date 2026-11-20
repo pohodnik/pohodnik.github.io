@@ -1,0 +1,2 @@
+System.register(["./main-legacy.D210_Bua.js","./index-legacy.DtHkJFnK.js","./vendor-legacy.DpFfJGzm.js"],function(e,l){"use strict";var t,s,r;return{setters:[e=>{t=e.j,s=e.l},e=>{r=e.P},null],execute:function(){e("H",({photo:e,toolbar:l})=>t.jsx(r,{img:e.url_preview,subtitle:e.date.toLocaleString(),footer:l,onClick:()=>s({canClose:!0,children:t.jsx("img",{src:e.url})}),children:t.jsx("small",{children:t.jsx("small",{className:"text-muted",children:e.comment})})}))}}});
+//# sourceMappingURL=HikingObstaclePhotoItem-legacy.DotxQGod.js.map
