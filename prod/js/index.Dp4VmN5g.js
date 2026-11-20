@@ -1,0 +1,2 @@
+import{j as r,E as a}from"./main.CNNlOc4q.js";const x=({value:s,children:e,striped:o=!1,animated:i=!1,className:l,containerClassName:p,...t})=>r.jsx("div",{className:a("progress",p),...t,children:r.jsx("div",{className:a("progress-bar",{"progress-bar-striped":o,"progress-bar-animated":i},l),role:"progressbar",style:{width:"".concat(s,"%")},"aria-valuenow":s,"aria-valuemin":0,"aria-valuemax":100,children:e})});export{x as P};
+//# sourceMappingURL=index.Dp4VmN5g.js.map

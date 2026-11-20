@@ -1,0 +1,2 @@
+import{l as o,m as s}from"./main.CNNlOc4q.js";const i=e=>({id:+e.id,name:e.name,code:e.code,full_name:e.full_name,logo:e.logo,description:e.description,link:e.link,comment:e.comment,is_public:e.is_public=="1",geoRegion:{id:e.id_geo_region,name:e.geo_region_name}}),l=async(e={my:!0})=>(await o("/ajax/clubs/clubs_list.php",e).then(s)).map(i),m=async e=>{const n=await o("/ajax/clubs/clubs_one.php",{id:e}).then(s);return i(n)};export{m as a,l as g};
+//# sourceMappingURL=clubs.service.D--znT1f.js.map
